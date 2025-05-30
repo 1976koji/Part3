@@ -17,23 +17,15 @@ Metrics collected:
 
 ## 🚀 Quickstart
 
-1. **Install dependencies**  
-   ```bash
+1. **Install dependencies**     
    pip install torch sentence-transformers openai numpy pandas matplotlib tqdm
-````
 
 2. **Set your OpenAI key**
-
-   ```bash
    export OPENAI_API_KEY="YOUR_API_KEY_HERE"
-   ```
-
+  
 3. **Run the test**
-
-   ```bash
-   python cat_anchor_abtest_drift_pnorm_Aq_fixed_v2.py
-   ```
-
+　　python cat_anchor_abtest_drift_pnorm_Aq_fixed_v2.py
+   
 4. **Inspect results in** `GPT_output2/`
 
    * `drift_timeseries2_GPT.png`
@@ -86,16 +78,10 @@ Metrics collected:
    ```
 
 2. **APIキーを設定**
-
-   ```bash
    export OPENAI_API_KEY="YOUR_API_KEY_HERE"
-   ```
 
 3. **スクリプトを実行**
-
-   ```bash
    python cat_anchor_abtest_drift_pnorm_Aq_fixed_v2.py
-   ```
 
 4. **出力結果を確認** `GPT_output2/`
 
